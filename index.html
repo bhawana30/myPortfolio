@@ -1,0 +1,403 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+  </head>
+  <body>
+  <div class="container">
+    
+    <!-- navbar start -->
+    <div class="sidebar flex d-flex justify-content-center  " >
+     
+      <ul class="nav-list" style="list-style: none; padding: 10px;">
+        <li>
+          <div class="navitem">
+            <a href="#profile" class="tt">Profile</a>
+          </div>
+        </li> 
+        <li>
+          <div class="navitem">
+
+            <a href="#education" class="tt">Education</a>
+
+          </div>
+        </li>
+        <li>
+          <div class="navitem">
+            <a href="#skills" class="tt">Skills & Projects</a>
+          </div>
+       </li>
+       <li>
+        <div class="navitem">
+          <a href="#achievements" class="tt ">Achievements</a>
+        </div>
+       </li>
+       <li>
+        <div class="navitem">
+          <a href="#contact" class="tt">Contact</a>
+        </div>
+       </li>
+      
+       
+      </ul>
+    </div>
+    <!-- <section class="home-section">
+        <div class="text">Dashboard</div>
+    </section> -->
+  
+    <!-- Navbar end -->
+
+
+    <div class="header">
+      <!--Content before waves-->
+      <div class="inner-header flex">
+        <!--Just the logo.. Don't mind this-->
+        <svg
+          version="1.1"
+          class="logo"
+          baseProfile="tiny"
+          id="Layer_1"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+          x="0px"
+          y="0px"
+          viewBox="0 0 500 500"
+          xml:space="preserve"
+        >
+          <path
+            fill="#FFFFFF"
+            stroke="#000000"
+            stroke-width="10"
+            stroke-miterlimit="10"
+            d="M57,283"
+          />
+          <!-- <g>
+            <path
+              fill="#fff"
+              d="M250.4,0.8C112.7,0.8,1,112.4,1,250.2c0,137.7,111.7,249.4,249.4,249.4c137.7,0,249.4-111.7,249.4-249.4
+    C499.8,112.4,388.1,0.8,250.4,0.8z M383.8,326.3c-62,0-101.4-14.1-117.6-46.3c-17.1-34.1-2.3-75.4,13.2-104.1
+    c-22.4,3-38.4,9.2-47.8,18.3c-11.2,10.9-13.6,26.7-16.3,45c-3.1,20.8-6.6,44.4-25.3,62.4c-19.8,19.1-51.6,26.9-100.2,24.6l1.8-39.7		c35.9,1.6,59.7-2.9,70.8-13.6c8.9-8.6,11.1-22.9,13.5-39.6c6.3-42,14.8-99.4,141.4-99.4h41L333,166c-12.6,16-45.4,68.2-31.2,96.2	c9.2,18.3,41.5,25.6,91.2,24.2l1.1,39.8C390.5,326.2,387.1,326.3,383.8,326.3z"
+            />
+          </g> -->
+        </svg>
+        <div class="mb-5" style="position: relative; top:100px;right:150px;" >
+          <img src="kinni.jpeg" alt="" class="   rounded-circle carousel-caption" style="width:205px ; height:260px;">
+        </div>
+        <div style="position:absolute; bottom:130px;">
+          <h1 class="line-1 anim-typewriter fw-bold  display-1"  style="font-family: 'Times New Roman', Times, serif ;">BHAWANA</h1>
+          <!-- <a href="Resume.pdf" download class="download-btn">Resume</a> -->
+        </div>
+      </div>
+
+      <!--Waves Container-->
+      <div>
+        <svg
+          class="waves"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+          viewBox="0 24 150 28"
+          preserveAspectRatio="none"
+          shape-rendering="auto"
+        >
+          <defs>
+            <path
+              id="gentle-wave"
+              d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z"
+            />
+          </defs>
+          <g class="parallax">
+            <use
+              xlink:href="#gentle-wave"
+              x="48"
+              y="0"
+              fill="rgba(255,255,255,0.7"
+            />
+            <use
+              xlink:href="#gentle-wave"
+              x="48"
+              y="3"
+              fill="rgba(255,255,255,0.5)"
+            />
+            <use
+              xlink:href="#gentle-wave"
+              x="48"
+              y="5"
+              fill="rgba(255,255,255,0.3)"
+            />
+            <use xlink:href="#gentle-wave" x="48" y="7" fill="#fff" />
+          </g>
+        </svg>
+      </div>
+      <!--Waves end-->
+    </div>
+    <!--Header ends-->
+
+    <!-- Profile -->
+    <div class="mb-5" id="profile">
+      <h1 class=" mb-5 fw-bold display-2 text-center" style="margin-top:120px; font-family: 'Times New Roman', Times, serif;">Profile</h1>
+      <hr>
+      <div class="row flex d-flex justify-content-center">
+          <div class="col-8  text-center">
+            <p class="fs-5" style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;">
+              I am seeking a job opportunity in a reputable organization that will 
+      allow me to expand my knowledge and skills in the field of computer 
+      science, while contributing to the symbolic growth of the
+      organization. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi, necessitatibus ad, illo itaque recusandae obcaecati a fugit, 
+      aut doloremque molestias eveniet harum doloribus accusamus quos quidem sapiente in ex ipsum. </p>
+          </div>
+
+      </div>
+      </p>
+    </div>
+    <!-- Profile end -->
+
+    <!-- Eductaion -->
+    <div class="" id="education">
+      <h1 class=" mb-5 fw-bold display-2 text-center" style="margin-top:120px; font-family: 'Times New Roman', Times, serif;">Education</h1>
+      <hr>
+     
+      <section id="timeline">
+        <article>
+          <div class="inner">
+            <span class="date">
+              <!-- <span class="day">30<sup>th</sup></span> -->
+              <span class="month">Jul</span>
+              <span class="year">2024</span>
+            </span>
+            <h2>Master Of Computer Application-(Pursuing)</h2>
+            <p>
+             
+                National Institute Of Technology Jamshedpur,Jharkhand <br>
+                CGPA-- 9.00 <br>
+                Session-- 2021-2024
+             
+            </p>
+          </div>
+        </article>
+        <article>
+          <div class="inner">
+            <span class="date">
+              
+              <span class="month">May</span>
+              <span class="year">2020</span>
+            </span>
+            <h2>Bsc. (HONS) Computer Science</h2>
+            <p>
+              Mata Sundri College For Women,University Of Delhi
+             <br>
+              CGPA -- 8.054 <br>
+              Session-- 2017-2020
+            </p>
+          </div>
+        </article>
+        <article>
+          <div class="inner">
+            <span class="date">
+              <span class="month">May</span>
+              <span class="year">2017</span>
+            </span>
+            <h2>12th (Secondry)</h2>
+            <p>
+              S.B.S Sr. Sec. School <br>
+              Madha(Hansi) <br>
+              Percentage-89.6%
+            </p>
+          </div>
+        </article>
+        <article>
+          <div class="inner">
+            <span class="date">
+              <!-- <span class="day">26<sup>th</sup></span> -->
+              <span class="month">May</span>
+              <span class="year">2015</span>
+            </span>
+            <h2>10th (Elementary)</h2>
+            <p>
+              S.B.S Sr. Sec. School <br>
+              Madha(Hansi) <br>
+              Percentage--94.2%
+            </p>
+          </div>
+        </article>
+       
+      </section>
+      </div>
+			
+ 
+    <!-- Education End -->
+
+    <!-- Skills -->
+    <div class="mb-5" id="skills">
+      <h1 class=" mb-5 fw-bold display-2 text-center" style="margin-top:120px; font-family: 'Times New Roman', Times, serif;">Skills</h1>
+      <hr>
+     
+    
+     <div class="container">
+      <div class="row flex d-flex justify-content-center">
+        
+        <div class="t-outline-pill">C</div>
+        <div class="r-outline-pill">C++</div>
+        <div class="p-outline-pill">JAVA</div>
+        <div class="o-outline-pill">HTML & CSS</div>  
+        <div class="k-outline-pill">Bootstrap</div>  
+        <div class="l-outline-pill">Javascript</div>  
+        <div class="m-outline-pill">Git</div>  
+        <div class="n-outline-pill">GitHub</div>  
+        <div class="i-outline-pill">Competitive Coding</div>  
+     
+
+    
+    </div>
+    
+     </div>
+    </div>
+    
+   
+    <!-- Skills End -->
+
+    <div>
+      <h1 class=" mb-5 fw-bold display-2 text-center" style="margin-top:120px; font-family: 'Times New Roman', Times, serif;">Projects</h1>
+      <hr>
+      <div>
+        <div class="row text-center">
+          <div class="col-6 " style="border-right:2px solid black ;">
+           <h3 class="fw-bold">Academic Projects</h3> 
+            <a href="" class="fs-5 fw-bold" style="color: inherit; color: brown">Inventory Management System</a>
+          </div>
+          <div class="col-6"> <h3 class="fw-bold">Minor Projects</h3> 
+          <ul style="list-style:none ;">
+            <li>
+              <a href="" class="fs-5 fw-bold" style="color: inherit; color: brown">Tic Toe Game</a>
+            </li>
+            <li>
+             <a href="" class="fs-5 fw-bold" style="color: inherit; color: brown">Calculator</a> 
+            </li>
+            <li>
+              <a href="" class="fs-5 fw-bold" style="color: inherit; color: brown">Login/SignUp</a>
+            </li>
+          </ul>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Achievements -->
+    <div class="mb-5" id="achievements">
+      <h1 class=" mb-5 fw-bold display-2 text-center" style="margin-top:120px; font-family: 'Times New Roman', Times, serif;">Achievements</h1>
+      <hr>
+     
+      <div class="col-8 offset-2  ">
+           
+        <ol class="list-group  ">
+          <li class="list-group-item aa align-items-start">
+            <div class="ms-2 me-auto ">
+              <div class="ids" >
+               <a href="https://www.hackerrank.com/Bhawanakhurana15?hr_r=1" class="ac" style="color:inherit">HACKER_RANK</a> 
+              </div>
+              6 stars
+            </div>
+           
+          </li>
+          <li class="list-group-item aa align-items-start ">
+            <div class="ms-2 me-auto">
+              <div class="">
+                <a href="https://auth.geeksforgeeks.org/user/bhawanakhurana15/practice/" class="ac" style="color:inherit">GFG</a> 
+              </div>
+              Solved 250+ Problems
+            </div>
+          
+          </li>
+          <li class="list-group-item aa align-items-start">
+            <div class="ms-2 me-auto">
+              <div class=""> <a href="https://codeforces.com/profile/MissKhurana" class="ac" style="color:inherit">CODEFORCES</a> </div>
+              Solved 450+Problems
+            </div>
+           
+          </li>
+          <li class="list-group-item aa align-items-start">
+            <div class="ms-2 me-auto">
+              <div class=""> <a href="https://www.codechef.com/users/bhawanakhurana" class="ac"  style="color:inherit">CODECHEF</a> </div>
+              Max. 3 Stars
+            </div>
+           
+          </li>
+        </ol>
+          </div>
+      </p>
+    </div>
+    <!-- Achievements End -->
+   
+    <!-- Contact -->
+    <div class="mb-5" id="contact">
+      <h1 class=" mb-5 fw-bold display-2 text-center" style="margin-top:120px; font-family: 'Times New Roman', Times, serif;">Contact</h1>
+      <hr>
+     <div class="row">
+      <div class="col-sm-8" style="border-right: 2px solid black ;">
+           <div class="" style="padding: 100px; ">
+            <ul class="navbar" style="list-style: none;">
+              <li>
+                <img src="images/linkedin.png" alt="" style="width: 35px; height:35px;"> &nbsp;
+                <a class="footer-link " href="https://www.linkedin.com/">LinkedIn</a>
+              </li>
+              <li>
+                <img src="images/twitter.png" alt="" style="width: 35px; height:35px;">&nbsp;
+                <a class="footer-link" href="https://twitter.com/">Twitter</a>
+              </li>
+              <li>
+                <img src="images/insta.png" alt="" style="width: 35px; height:35px;">&nbsp;
+                <a class="footer-link" href="https://instagram.com">Instagram</a>
+         
+              </li>
+              <li>
+                 
+            <img src="images/fb.png" alt="" style="width: 35px; height:35px;">&nbsp;
+            <a class="footer-link" href="https://facebook.com">FaceBook</a>
+              </li>
+            </ul>
+           
+          
+         
+       
+          
+           </div>
+           
+        
+      </div>
+
+      <div class="col-sm-4 mt-5 text-center" >
+        <h3>Bhawana Khurana</h3>
+        <hr>
+        <div>
+          <img src="images/rr.png" style="width: 25px; height:25px;">&nbsp;
+
+          <a href="mailto:bhawanakhurana15@gmail.com" type="email">bhawanakhurana15@gmail.com</a>
+
+        </div>
+        <br>
+        <div>
+          <img src="images/rcall.png" style="width: 25px; height:25px;">&nbsp;
+          +91 8375856329, &nbsp;
+            
+             +91 9812631315
+          
+        </div>
+       
+      </div>
+     </div>
+
+      </div>
+      </p>
+    
+    <!-- Contact end -->
+
+</div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+  </body>
+</html>
