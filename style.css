@@ -455,6 +455,9 @@ section#timeline article:nth-child(5) div.inner h2:after {
   margin: 100px;
 
 }
+.navitem a{
+  text-decoration: none;
+}
 .tt{
   color: white;
   
@@ -466,7 +469,7 @@ section#timeline article:nth-child(5) div.inner h2:after {
 .navitem:hover{
   border-radius: 1.5em;
   transition: 0.5s;
-  background-color: #2ecc71;
+  background-color: turquoise;
   padding: 3px;
 }
 
